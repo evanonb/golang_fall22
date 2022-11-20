@@ -1,15 +1,12 @@
-
 <!DOCTYPE html>
 
 <html>
    <head>
          <meta charset="UTF-8">
          <link rel="stylesheet" href="/static/stylesheets/welcome-template.css?{% now 'U' %}">
-
          <title>Welcome {{.Name}}</title>
    </head>
    <body>
-      <!-- <div class="welcome center">Welcome {{.Name}}, it is {{.Time}}</div> -->
-      <div class="welcome center">Welcome {{.Name}}, your order from {{.Company}} has been successfully place on {{.Date}}</div>
+      <div class="welcome center">Welcome {{.Name}}, your order from {{.Company}}<br/>has been successfully placed on {{.Date}}</div>
    </body>
 </html>
